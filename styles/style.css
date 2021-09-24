@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
 body{
     background: linear-gradient(180deg, #2D9CDB 0%, #6FCF97 97.4%);
-    font-family: Montserrat;
+    font-family: 'Montserrat-Regular';
     font-style: normal;
 }
 
