@@ -1,0 +1,240 @@
+body{
+    background: linear-gradient(180deg, #2D9CDB 0%, #6FCF97 97.4%);
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+main{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecera{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3% 3% 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: calc(100% - 6%);
+}
+
+.logo-larissa{
+    max-width: 28%;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bloco-bienvenida{
+    margin: 0 4.5%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bienvenida{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 84px;
+    /* or 140% */
+    color: #ffffff;
+}
+
+#icon-bajar{
+    min-width: 80px;
+    max-width: 80px;
+    margin: 20px auto;
+}
+
+.bloco-portafolio{
+    min-height: 100vh;
+    margin: 0 4.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bloco-proyecto-portafolio{
+    width: 50%;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloco-imagen-portafolio-1{
+    width: 50%;
+    height: 50vh;
+    background-color: #ffffff;
+    border-radius: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-imagen-portafolio-2{
+    width: 50%;
+    height: 50vh;
+    background-color: #ffffff;
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-imagen-portafolio-3{
+    width: 50%;
+    height: 50vh;
+    background-color: #ffffff;
+    border-radius: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-portafolio{
+    max-width: 450px;
+}
+
+.titulo-proyecto-portafolio{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    /* or 68% */
+    color:#ffffff;
+}
+
+.subtitulo-proyecto-portafolio{
+    padding-bottom: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 140% */
+    color:#ffffff;
+}
+
+.texto-proyecto-portafolio{
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    color:#ffffff;
+}
+
+.boton-proyecto-portafolio{
+    display: block;
+    width: fit-content;
+    padding: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 2px;
+    border-width: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 140% */
+
+}
+
+.boton-proyecto-portafolio:hover{
+    display: block;
+    width: fit-content;
+    padding: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border-width: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #2D9CDB;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 140% */
+}
+
+footer {
+    background-color: rgba(242, 242, 242, 0.5);
+    padding: 40px 80px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+
+}
+
+.destaque-footer{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color:  #444444; 
+    text-align-last: center;
+    /* or 140% */
+}
+
+.info-footer{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-rss {
+    max-width: 32px;
+    margin: 10px;
+}
+
+a.boton-email-contacto:hover{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #6FCF97;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 140% */
+}
+
+.boton-email-contacto{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #6FCF97; 
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 140% */
+}
